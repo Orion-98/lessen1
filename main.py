@@ -22,7 +22,7 @@ sum =100.5
 print("Привет, "+name+"!" )
 print("Сейчас на улице "+weather1+", а у тебя в кармане "+str(sum)+"$")
 
-print(F" ПРивет, {name}!")
+print(F" Привет, {name}!")
 print(f"сейчас на улице {weather1}, а у тебя в кармане {sum}$")
 weight = input("Введите ваш вес: ")# запрашиваем вес человека
 
@@ -47,8 +47,10 @@ print(-a)
 print(--a)# унарный минус
 print( round(c) )
 
+
 import math
 
+var = ()
 print( math.floor(c))# Округление а меньшую сторону
 print(  math.ceil(c)  ) # Округления в большую сторону
 print(math.pi)
@@ -73,7 +75,6 @@ else:
     print("Завершение программы ...")
 #Дополнительныее модули из интернета
 from colorama import init
-print("11")
 init()
 
 # Калькулятор
@@ -89,4 +90,3 @@ elif operation == "-": #Дополнительное условия
 
 print(f"Результат: {result}")
 print("Завершение программы...")
-print(123)
